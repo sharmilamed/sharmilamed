@@ -1,0 +1,135 @@
+/* Welcome to the Creative Paradise */
+
+/* Global Flourish */
+body {
+    font-family: "Quicksand", sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url('image1.jpg');
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* Navigation Odyssey */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+/* About us Dreamland */
+.sub-title {
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* Menu Adventure */
+.Menu-section {
+    margin-top: 50px;
+}
+
+/* Contact us Connection */
+.contact-text {
+    margin-top: 50px;
+}
+
+.locations {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.locations div {
+    width: 30%;
+}
+
+/* Welcome Journey */
+.head {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.para1,
+.para2,
+.para3 {
+    text-align: center;
+    margin: 20px auto;
+}
+
+/* Book Now Magic */
+.order-details {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.order-details h3 {
+    margin-bottom: 20px;
+}
+
+.order-details form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.order-details form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.order-details form select,
+.order-details form input[type="text"],
+.order-details form input[type="email"],
+.order-details form textarea {
+    width: calc(100% - 16px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.order-details form textarea {
+    height: 100px;
+}
+
+.order-details form input[type="submit"] {
+    background-color: #555;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.order-details form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Footer Symphony */
+.footer-bottom {
+    background-color: #f2f2f2;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
