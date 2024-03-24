@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Paradise - Explore Culinary Delights</title>
+    <link rel="stylesheet" href="sample2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        /* Add custom styles here */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+        }
+
+        .navbar {
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .navbar ul li {
+            display: inline;
+            margin-left: 20px;
+        }
+
+        .navbar ul li a {
+            text-decoration: none;
+            color: #333;
+            transition: color 0.3s ease;
+        }
+
+        .navbar ul li a:hover {
+            color: #ff5733; /* Change color on hover */
+        }
+
+        .sub-title {
+            margin-top: 50px;
+            text-align: center;
+            font-size: 36px;
+            color: #ff5733; /* Heading color */
+        }
+
+        .Menu-section {
+            margin-top: 50px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .Menu-section h2 {
+            color: #ff5733; /* Section heading color */
+        }
+
+        .Menu-section h3 {
+            color: #333; /* Subheading color */
+        }
+
+        .Menu-section p {
+            color: #666; /* Text color */
+        }
+
+        .contact-text {
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        .contact-details {
+            margin-bottom: 20px;
+        }
+
+        .locations {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .locations div {
+            width: 30%;
+            text-align: center;
+        }
+
+        .head {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 36px;
+            color: #ff5733; /* Heading color */
+        }
+
+        .para1 {
+            text-align: center;
+            font-size: 20px;
+            color: #666; /* Text color */
+        }
+
+        .para3 {
+            text-align: center;
+            margin-bottom: 0;
+            font-size: 24px;
+            color: #ff5733; /* Accent color */
+        }
+
+        .order-details {
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        .order-details h3 {
+            margin-bottom: 20px;
+            font-size: 24px;
+            color: #ff5733; /* Heading color */
+        }
+
+        .order-details form {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff; /* Form background color */
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .order-details form label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+            color: #333; /* Label color */
+        }
+
+        .order-details form select,
+        .order-details form input[type="text"],
+        .order-details form input[type="email"],
+        .order-details form textarea {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        .order-details form textarea {
+            height: 100px;
+        }
+
+        .order-details form input[type="submit"] {
+            background-color: #ff5733; /* Submit button background color */
+            color: #fff; /* Text color */
+            padding: 12px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+
+        .order-details form input[type="submit"]:hover {
+            background-color: #e04a2e; /* Darker color on hover */
+        }
+
+        .footer-bottom {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .footer-bottom p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <nav>
+        <img src="logoo.png" alt="Food Paradise Logo" height="100px" width="100px">
+        <div class="navbar">
+            <div class="left">FOOD PARADISE 🥗</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#AboutUs">About us</a></li>
+                    <li><a href="#Menu">Menu</a></li>
+                    <li><a href="#ContactUs">Contact us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="About us" id="AboutUs">
+        <div class="container">
+            <h1 class="sub-title"><span>About us</span></h1>
+            <div class="About us-section">
+                <p>🍴 Welcome to FOOD PARADISE, your culinary concierge in the digital age! 🚀<br>
+                    🛵 Hungry for convenience? We've got you covered! With just a few taps, indulge in a world of flavors delivered straight to your doorstep. 🌍<br>
+                    👩‍🍳 Passionate about food? So are we! Our handpicked selection of restaurants ensures you'll find your perfect match, whether it's comfort food classics or exotic delicacies.
+</p>
+            </div>
+        </div>
+    </section>
+    <section class="Menu" id="Menu">
+        <div class="container">
+            <h1 class="sub-title"><span>Menu</span></h1>
+            <section class="Menu" id="Menu">
+    <p>
+        <h2>Appetizers:</h2>
+        <h3>Samosa:</h3>
+        <img src="samosa.png" height="100px" width="100px" />
+        Triangular pastry filled with spiced potatoes and peas, served with chutneys. Price: ₹50 each
+
+        <h3>Pakoras:</h3>
+        <img src="pakoras.png" height="100px" width="100px" />
+        Crispy fritters made with chickpea flour batter, mixed with vegetables like onion, potato, or spinach. Price: ₹60 per serving
+
+        <h3>Chat:</h3>
+        <img src="chat.png" height="100px" width="100px" />
+        A savory snack made with crispy fried dough, potatoes, chickpeas, yogurt, and tangy chutneys. Price: ₹70 per plate
+    </p>
+
+    <p>
+        <h2>Main Courses:</h2>
+        <h3>Butter Chicken:</h3>
+        <img src="butter.png" height="100px" width="100px" />
+        Tender chicken cooked in a creamy tomato-based sauce with butter and spices. Price: ₹200 per portion
+
+        <h3>Paneer Tikka Masala:</h3>
+        <img src="paneer.png" height="100px" width="100px" />
+        Grilled paneer (Indian cottage cheese) cooked in a rich, spiced tomato gravy. Price: ₹180 per serving
+
+        <h3>Palak Paneer:</h3>
+        <img src="palak.png" height="100px" width="100px" />
+        Soft paneer cubes cooked in a creamy spinach gravy. Price: ₹170 per serving
+
+        <h3>Chicken Biryani:</h3>
+        <img src="biriyani.png" height="100px" width="100px" />
+        Fragrant basmati rice cooked with marinated chicken, spices, and herbs, served with raita. Price: ₹250 per serving
+
+        <h3>Chana Masala:</h3>
+        <img src="chana.png" height="100px" width="100px" />
+        Chickpeas cooked in a flavorful tomato-based gravy with onions, garlic, and spices. Price: ₹160 per serving
+
+        <h3>Dal Tadka:</h3>
+        <img src="dal.png" height="100px" width="100px" />
+        Yellow lentils tempered with spices, garlic, and onions, garnished with cilantro. Price: ₹150 per serving
+    </p>
+
+    <p>
+        <h2>Breads:</h2>
+        <h3>Naan:</h3>
+        <img src="naan.png" height="100px" width="100px" />
+        Soft and fluffy leavened bread baked in a tandoor oven, available in plain, garlic, or butter variations. Price: ₹40 each
+
+        <h3>Roti:</h3>
+        <img src="roti.png" height="100px" width="100px" />
+        Whole wheat flatbread, perfect for scooping up curries and gravies. Price: ₹30 each
+    </p>
+
+    <p>
+        <h2>Rice:</h2>
+        <h3>Vegetable Pulao:</h3>
+        <img src="pulav.png" height="100px" width="100px" />
+        Fragrant basmati rice cooked with mixed vegetables and aromatic spices. Price: ₹100 per serving
+
+        <h3>Jeera Rice:</h3>
+        <img src="jeera.png" height="100px" width="100px" />
+        Basmati rice flavored with cumin seeds and cooked to perfection. Price: ₹80 per serving
+    </p>
+
+    <p>
+        <h2>Desserts:</h2>
+        <h3>Gulab Jamun:</h3>
+        <img src="jamun.png" height="100px" width="100px" />
+        Deep-fried milk solids dumplings soaked in sugar syrup, served warm. Price: ₹60 per serving
+
+        <h3>Rasmalai:</h3>
+        <img src="rasam.png" height="100px" width="100px" />
+        Soft and spongy cottage cheese patties soaked in sweetened, thickened milk, flavored with cardamom and saffron. Price: ₹70 per serving
+    </p>
+
+    <p>
+        <h2>Beverages:</h2>
+        <h3>Mango Lassi:</h3>
+        <img src="lassi.png" height="100px" width="100px" />
+        A refreshing yogurt-based drink blended with ripe mangoes and a touch of cardamom. Price: ₹50 per glass
+
+        <h3>Masala Chai:</h3>
+        <img src="chaai.png" height="100px" width="100px" />
+        Spiced Indian tea made with black tea leaves, milk, ginger, cardamom, and other spices. Price: ₹40 per cup
+    </p>
+</section>
+    
+    <section class="contact us" id="ContactUs">
+        <div class="contact-text">
+            <h2>Contact <span>us</span></h2>
+            <div class="contact-details">
+                <ul class="contact-list">
+                    <li><i class="fas fa-Email"></i> Email: sharmilamed1133@gmail.com</li>
+                    <li><i class="fas fa-phone"></i> Phone: +91 1234567890</li>
+                </ul>
+            </div>
+            <div class="locations">
+                <div class="annanagar">
+                    <h2>Anna Nagar</h2>
+                    <address>15, 10th Main Road</br>Anna Nagar,</br>Chennai - 600102</address>
+                </div>
+                <div class="velachery">
+                    <h2>Velachery</h2>
+                    <address>5, 3rd Cross Road,</br>Vijaya Nagar,</br>Velachery,</br>Chennai - 600042</address>
+                </div>
+                <div class="Tambaram">
+                    <h2>Tambaram</h2>
+                    <address>145, MIT Road,</br>Tambaram,</br>Chennai - 600045</address>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    </div>
+
+<!-- Welcome Section -->
+<h1 class="head">WE ALWAYS WELCOME YOU</h1>
+<p class="para1">- we give you an eating experience that you will never forget</p>
+<h4>
+    <blockquote>
+        <p class="para3">A FOOD IS AN ART</p>
+       
+    </blockquote>
+</h4>
+
+        <div class="order-details">
+        <h3>Order Your Food:</h3>
+        <p>To place your order, please select the items you'd like from our menu below and fill out the form with your contact information.</p>
+        
+        
+        <form action="submit_order.php" method="POST">
+            <label for="items">Select Items:</label><br>
+            <select id="items" name="items" multiple>
+                <option value="Samosa">Samosa - ₹50 each</option>
+                <option value="Pakoras">Pakoras - ₹60 per serving</option>
+                <option value="Chaat">Chaat - ₹70 per plate</option>
+                <!-- Add more options for other menu items -->
+            </select><br>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="phone">Phone:</label><br>
+            <input type="text" id="phone" name="phone"><br>
+            <label for="message">Address:</label><br>
+            <textarea id="message" name="message"></textarea><br>
+            <input type="submit" value="Place Order">
+        </form>
+    </div>
+</a>
+<footer>
+        <div class="footer-bottom">
+            <p> 2024 Food Paradise. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+
+</body>
+</html>
+
